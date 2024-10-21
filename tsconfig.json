@@ -27,7 +27,7 @@
   "exclude": ["node_modules"],
   "typedocOptions": {
     "entryPoints": ["packages/*"],
-    "name": "Stanford Biodesign Digital Health ENGAGE-HF Web Frontend",
+    "name": "Stanford Biodesign Digital Health Spezi Web Design System",
     "entryPointStrategy": "packages",
     "includeVersion": false
   }
