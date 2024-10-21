@@ -29,7 +29,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      name: '@stanfordbdhg/web-design-system',
+      name: '@stanfordbdhg/spezi-web-design-system',
       fileName: (format) => `web-design-system.${format}.js`,
     },
   },
