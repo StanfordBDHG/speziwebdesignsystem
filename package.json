@@ -43,6 +43,7 @@
     "@radix-ui/react-tooltip": "^1.1.3",
     "@t3-oss/env-core": "^0.11.1",
     "@tanstack/match-sorter-utils": "^8.19.4",
+    "@tanstack/react-router": "^1.74.4",
     "@tanstack/react-table": "^8.20.5",
     "@vitejs/plugin-react": "^4.3.3",
     "class-variance-authority": "^0.7.0",

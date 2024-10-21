@@ -7,7 +7,7 @@
 //
 
 import { isNil } from 'es-toolkit'
-import { type Nil } from '@/packages/design-system/src/utils/misc'
+import { type Nil } from '@/utils/misc'
 
 type DateInput = Date | string | number
 

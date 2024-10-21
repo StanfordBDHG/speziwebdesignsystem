@@ -6,7 +6,7 @@
 // SPDX-License-Identifier: MIT
 //
 import { screen } from '@testing-library/react'
-import { renderWithProviders } from '@/modules/tests/helpers'
+import { renderWithProviders } from '@/tests/helpers'
 import { LinkPagination } from './LinkPagination'
 
 describe('LinkPagination', () => {

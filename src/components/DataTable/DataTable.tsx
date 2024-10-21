@@ -10,7 +10,7 @@ import { type ReactNode } from 'react'
 import {
   DataTableTableView,
   type DataTableTableViewSpecificProps,
-} from '@/packages/design-system/src/components/DataTable/DataTableTableView'
+} from '@/components/DataTable/DataTableTableView'
 import { useDataTable, type UseDataTableProps } from './DataTable.utils'
 import { DataTablePagination } from './DataTablePagination'
 import { GlobalFilterInput } from './GlobalFilterInput'

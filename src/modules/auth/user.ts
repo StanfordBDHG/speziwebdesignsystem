@@ -6,7 +6,7 @@
 // SPDX-License-Identifier: MIT
 //
 import { type UserInfo as AuthUserInfo } from '@firebase/auth-types'
-import { type Nil } from '@/packages/design-system/src/utils/misc'
+import { type Nil } from '@/utils/misc'
 
 export const getUserInfo = (user: AuthUserInfo) => ({
   displayName: user.displayName,

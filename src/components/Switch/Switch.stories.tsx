@@ -8,7 +8,7 @@
 import { type Meta, type StoryObj } from '@storybook/react'
 import { fn } from '@storybook/test'
 import { useState } from 'react'
-import { SideLabel } from '@/packages/design-system/src/components/SideLabel'
+import { SideLabel } from '@/components/SideLabel'
 import { Switch } from './Switch'
 
 const meta: Meta<typeof Switch> = {

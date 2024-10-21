@@ -10,9 +10,7 @@ import { tailwindColors } from './src/utils/tailwind'
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './{app,pages,components,routes,packages/design-system/src,modules}/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
       colors: tailwindColors,

@@ -7,7 +7,7 @@
 //
 import { flexRender } from '@tanstack/react-table'
 import { type MouseEvent } from 'react'
-import { ToggleSortButton } from '@/packages/design-system/src/components/DataTable/ToggleSortButton'
+import { ToggleSortButton } from '@/components/DataTable/ToggleSortButton'
 import {
   Table,
   TableBody,
@@ -15,9 +15,9 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from '@/packages/design-system/src/components/Table'
-import { TableEmptyState } from '@/packages/design-system/src/components/Table/TableEmptyState'
-import { ensureString } from '@/packages/design-system/src/utils/misc'
+} from '@/components/Table'
+import { TableEmptyState } from '@/components/Table/TableEmptyState'
+import { ensureString } from '@/utils/misc'
 import type { DataTableViewProps } from './DataTable'
 
 export interface DataTableTableViewSpecificProps<Data> {

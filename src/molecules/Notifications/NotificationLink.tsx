@@ -9,7 +9,7 @@ import { Link } from '@tanstack/react-router'
 import {
   Notification,
   type NotificationProps,
-} from '@/packages/design-system/src/molecules/Notifications/Notification'
+} from '@/molecules/Notifications/Notification'
 
 interface NotificationLinkProps extends Omit<NotificationProps, 'asChild'> {
   href: string

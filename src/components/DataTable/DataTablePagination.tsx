@@ -6,8 +6,8 @@
 // SPDX-License-Identifier: MIT
 //
 import type { Table as TableType } from '@tanstack/table-core'
-import { ButtonPagination } from '@/packages/design-system/src/components/Pagination/ButtonPagination'
-import { RangeCounter } from '@/packages/design-system/src/components/RangeCounter'
+import { ButtonPagination } from '@/components/Pagination/ButtonPagination'
+import { RangeCounter } from '@/components/RangeCounter'
 
 interface DataTablePaginationProps<Data> {
   table: TableType<Data>

@@ -7,8 +7,8 @@
 //
 import { Info } from 'lucide-react'
 import type { HTMLProps } from 'react'
-import { cn } from '@/packages/design-system/src'
-import { type Nil } from '@/packages/design-system/src/utils/misc'
+import { cn } from '@/utils/className'
+import { type Nil } from '@/utils/misc'
 import { useNotificationContext } from './NotificationContext'
 
 type NotificationImageProps = Omit<HTMLProps<HTMLImageElement>, 'src'> & {

@@ -6,8 +6,8 @@
 // SPDX-License-Identifier: MIT
 //
 import type { HTMLProps } from 'react'
-import { cn } from '@/packages/design-system/src'
-import { useNotificationContext } from '@/packages/design-system/src/molecules/Notifications/NotificationContext'
+import { useNotificationContext } from '@/molecules/Notifications/NotificationContext'
+import { cn } from '@/utils/className'
 
 interface NotificationTitleProps extends HTMLProps<HTMLHeadingElement> {}
 

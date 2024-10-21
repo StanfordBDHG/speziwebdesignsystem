@@ -7,8 +7,8 @@
 //
 import { type Row } from '@tanstack/react-table'
 import { type ReactNode } from 'react'
-import { EmptyState } from '@/packages/design-system/src/components/EmptyState'
-import { ensureString } from '@/packages/design-system/src/utils/misc'
+import { EmptyState } from '@/components/EmptyState'
+import { ensureString } from '@/utils/misc'
 import type { DataTableViewProps } from './DataTable'
 
 interface DataTableBasicViewProps<Data> extends DataTableViewProps<Data> {

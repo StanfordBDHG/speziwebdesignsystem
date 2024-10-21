@@ -7,7 +7,7 @@
 //
 import { Slot } from '@radix-ui/react-slot'
 import { type ReactNode } from 'react'
-import { cn } from '@/packages/design-system/src'
+import { cn } from '@/utils/className'
 import {
   type Notification as NotificationType,
   NotificationContext,
