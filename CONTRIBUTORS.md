@@ -12,3 +12,4 @@ SPDX-License-Identifier: MIT
 
 - [Paul Schmiedmayer](https://github.com/PSchmiedmayer)
 - [Vishnu Ravi](https://github.com/vishnuravi)
+- [Arkadiusz Bachorski](https://github.com/arkadiuszbachorski)
