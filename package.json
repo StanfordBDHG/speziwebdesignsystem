@@ -1,8 +1,8 @@
 {
-  "name": "engagehfwebfrontend",
+  "name": "@stanfordbdhg/web-design-system",
   "version": "0.1.0",
   "license": "MIT",
-  "description": "Stanford Biodesign Digital Health ENGAGE-HF Web Frontend",
+  "description": "Stanford Biodesign Digital Health Web Design System",
   "keywords": [
     "Stanford",
     "Biodesign"
@@ -12,8 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/StanfordBDHG/ENGAGE-HF-Web-Frontend"
+    "url": "https://github.com/StanfordBDHG/speziwebdesignsystem"
   },
+  "main": "dist/web-design-system.es.js",
+  "types": "dist/web-design-system.es.d.ts",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -24,7 +26,7 @@
     "test": "vitest run --coverage",
     "docs": "typedoc",
     "docs:ci": "typedoc --out ./out/docs --githubPages true",
-    "storybook": "storybook dev -p 6006 --config-dir=\"./packages/design-system/.storybook\""
+    "storybook": "storybook dev -p 6006"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
